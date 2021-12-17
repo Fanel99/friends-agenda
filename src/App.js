@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Navbar from './components/Navbar';
 import Create from './pages/create/Create';
 // pages and components
 import Dashboard from './pages/dashboard/Dashbord';
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <div className="container">
+          <Navbar />
           <Switch>
             <Route exact path="/">
               <Dashboard />

@@ -8,7 +8,7 @@ export default function Navbar() {
       <ul>
         <li className="logo">
           <img src={Temple} alt="logo" />
-          <span>Fanel's Friends</span>
+          <span>Fanel's Dojo</span>
         </li>
         <li>
           <Link to="/login">Login</Link>

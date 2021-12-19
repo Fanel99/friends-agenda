@@ -8,6 +8,7 @@ export default function Login() {
   const { login, error, isPending } = useLogin();
 
   const handleSubmit = (e) => {
+    e.preventDefault();
     login(email, password);
   };
 
